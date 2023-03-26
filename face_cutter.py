@@ -147,7 +147,7 @@ def list_posision(last_img, files):
 
 
 output_dir = "./hand_cut_images/"
-imgs_dir = "./painted_images/*"
+imgs_dir = "./original_images/*"
 files = glob.glob(imgs_dir)
 
 del files[0:list_posision(open_save(), files)]
